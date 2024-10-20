@@ -1,0 +1,109 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    z-index: -2;
+    
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 0px;
+    position: fixed;
+    background-image: linear-gradient(rgb(18, 11, 7), rgb(49, 23, 11));
+    z-index: 1000;
+    
+
+}
+
+nav .logo img{
+    width:5%;
+    height: 9vh;
+    float: left ;
+    padding-left: 10px 5px ;
+    z-index: 1000; /* puts the header ontop of background*/
+
+
+
+ 
+}
+
+nav ul{
+    float: right;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav li a{
+
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 70px;
+    color: white;
+    text-decoration: none;
+    
+
+
+
+}
+
+/* .nav-active{
+    color: brown;
+    outline: none;
+} */
+
+nav li a:hover{       /* hover over cursor to bring color  */
+    cursor: pointer ;
+    color: rgb(231, 190, 102);
+    transition: all 0.5s ease 0s;
+
+}
+
+
+
+/*  end of nav bar */
+
+
+
+.ReferenceSection h1{
+    position: relative;
+    /* top: 10px; */
+    bottom: 80px;
+    /* left: 5px; */
+    right: 50px;
+    width: 100%;
+    display: flex;
+    /* padding: 5px; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+    align-items: center;
+    color:beige;
+    z-index: 2;
+
+}
+
+
+.ReferenceSection {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    padding: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    color:burlywood;
+    z-index: 2;
+    bottom: 40px;
+    font-size: larger;
+
+}
+
+.ReferenceSection p{
+    margin-bottom: 20px;
+
+}
